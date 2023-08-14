@@ -61,13 +61,8 @@ const users = [
   }
 ];
 
-const idsUsers = () => {
-  for (let i = 0; i < users.length; i++) {
-    const user2 = (users[i].id)
-    if (user2 % 2 === 0) {
-      console.log(users[i])
-    }
+for (let i = 0; i < users.length; i++) {
+  if (users[i].id % 2 === 0) {
+    console.log(users[i]);
   }
 }
-
-idsUsers()
